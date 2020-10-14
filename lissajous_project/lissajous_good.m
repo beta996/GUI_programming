@@ -1,4 +1,7 @@
 function lissajous_good
+
+global A
+
 fig = figure('Position', [150 150 1200 800],'Color',[0.6350 0.0780 0.1840],'Name','Lissajous curve');
 uicontrol('Style', 'Text',...
 'String', 'Lissajous curve','BackgroundColor',[0.6350 0.0780 0.1840],...
